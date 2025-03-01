@@ -579,7 +579,7 @@ export default function FluidSection() {
   );
 
   return (
-    <section className="mx-auto mt-30 lg:mt-44  w-5/6 lg:w-4/6 h-56 lg:shadow-[0_0_0_1px_rgba(255,255,255,0.14)] flex items-center justify-center flex-col text-center">
+    <section className="mx-auto mt-30 lg:mt-44  w-5/6 lg:w-4/6 h-56flex items-center justify-center flex-col text-center">
       {/* {init && (
         <Particles
           id="tsparticles"
@@ -594,7 +594,6 @@ export default function FluidSection() {
       <p className=" text-gray-300 hover:text-white ">
         The power of server in serverless form
       </p>
-      
     </section>
   );
 }

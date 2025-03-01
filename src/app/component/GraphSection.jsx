@@ -29,7 +29,7 @@ const graphData = [
 
 export default function GraphSection() {
   return (
-    <section className="mx-auto mt-10 lg:mt-20 w-5/6 lg:w-4/6 bg-black text-white rounded-lg p-6 border border-gray-800">
+    <section className="mx-auto mt-10  w-5/6 lg:w-4/6 bg-black text-white rounded-lg p-6 border border-gray-800">
       {/* Header Section */}
       <div className=" py-10 z-50 absolute bg-gradient-to-r from-black via-black/90 to-transparent">
         <div className="px-4 flex items-center gap-2  text-gray-400">
