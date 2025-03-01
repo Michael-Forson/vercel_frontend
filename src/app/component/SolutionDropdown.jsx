@@ -88,7 +88,7 @@ export default function SolutionDropdown({ isOpen, onOpen, onClose }) {
       {/* Dropdown Menu */}
       {isOpen && (
         <div
-          className="absolute left-0 mt-4 w-[500px] bg-black shadow-[0_0_0_1px_rgba(255,255,255,0.14)] border-slate-800 rounded-lg p-6
+          className="absolute left-0 mt-2 w-[500px] bg-black shadow-[0_0_0_1px_rgba(255,255,255,0.14)] border-slate-800 rounded-lg p-6
             before:absolute before:-top-2 before:left-[20px] before:w-4 before:h-4 before:bg-black 
             before:border-t before:border-l before:border-gray-800 before:transform before:rotate-45"
           onMouseEnter={onOpen} // Keeps dropdown open when hovering over it
