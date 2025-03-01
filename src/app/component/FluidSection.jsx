@@ -47,7 +47,9 @@ export default function FluidSection() {
       fullScreen: {
         enable: false,
         zIndex: -1,
+        height: 253,
       },
+
       detectRetina: true,
       duration: 0,
       fpsLimit: 120,
@@ -582,7 +584,7 @@ export default function FluidSection() {
         <Particles
           id="tsparticles"
           width="100%"
-          height="100%"
+          height="273"
           className="particles-canvas"
           particlesLoaded={particlesLoaded}
           options={options}
@@ -592,6 +594,7 @@ export default function FluidSection() {
       <p className=" text-gray-300 hover:text-white ">
         The power of server in serverless form
       </p>
+      
     </section>
   );
 }

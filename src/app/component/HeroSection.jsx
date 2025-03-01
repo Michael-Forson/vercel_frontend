@@ -12,10 +12,10 @@ export default function HeroSection() {
         build ,scale and secure a faster,more personalized web
       </p>
       <div className="relative  sm:-top-10 lg:-top-30">
-        <button className="text-black lg:w-40 bg-white px-5 py-3  mr-5 shadow-[0_0_0_1px_rgba(255,255,255,0.14)] rounded-4xl text-lg font-medium hover:opacity-90 transition-all  ">
+        <button className="text-black lg:w-44 bg-white px-5 py-3  mr-5 shadow-[0_0_0_1px_rgba(255,255,255,0.14)] rounded-4xl text-lg font-medium hover:opacity-90 transition-all  ">
           Start deploying
         </button>
-        <button className=" text-gray-300 lg:w-40 bg-black px-5 py-3  shadow-[0_0_0_1px_rgba(255,255,255,0.14)] rounded-4xl text-lg font-medium hover:opacity-90 transition-all  ">
+        <button className=" text-gray-300 lg:w-44 bg-black px-5 py-3  shadow-[0_0_0_1px_rgba(255,255,255,0.14)] rounded-4xl text-lg font-medium hover:opacity-90 transition-all  ">
           Get a Demo
         </button>
       </div>
